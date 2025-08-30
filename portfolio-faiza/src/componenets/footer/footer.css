@@ -34,5 +34,14 @@ footer.flex p{
         gap: 2rem;
 
     }
-
 }
+@media(max-width:600px){
+    footer.flex ul{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+}
+    
+

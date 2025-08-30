@@ -8,7 +8,7 @@ const Hero =()=>{
  const lottieRef = useRef(null);
 
     return(
-        <section className='hero flex'>
+        <section id="about" className='hero flex'>
             <div className='left-section'>
 
             <div className='parent-avatar flex'>
@@ -17,7 +17,7 @@ const Hero =()=>{
                 animate={{transform:"scale(1)"}}
                 transition={{damping:6 ,type:"spring", stiffness:100}}
                 
-                src="./me.png" className='avatar' alt="profile" />
+                src="/me.png" className='avatar' alt="profile" />
                 <div className='icon-verified'></div>
             </div>
 
@@ -32,7 +32,9 @@ const Hero =()=>{
             <div className="all-icons flex">
                 <div className="icon icon-social-twitter"></div>
                 <div className="icon icon-instagram"></div>
+                <a href="https://github.com/Faiza2005-info" target='_blank'>
                 <div className="icon icon-github"></div>
+                </a>
                 <div className="icon icon-linkedin-square"></div>
             </div>
             </div>

@@ -19,10 +19,8 @@ app.use('/auth', authRoutes);
 
 
 
-
-
 //connet to database
-mongoose.connect(process.env.MONGO_URL,
+mongoose.connect(process.env.DATABASE_URL,
     { serverSelectionTimeoutMS: 5000 })
     .then(() => {
         const PORT = process.env.PORT || 5000;

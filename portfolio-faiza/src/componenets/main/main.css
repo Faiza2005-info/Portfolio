@@ -87,7 +87,9 @@ main section.right-section.flex{
 .card .box .title{
     color:var(--title);
     text-transform: capitalize;
-
+    background-clip: linear-gradient(100deg,rgb(134, 134, 199),var(--subtitle));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -96,6 +98,7 @@ main section.right-section.flex{
     font-size: 0.8rem;
     margin-top: 0.7rem;
     margin-bottom: 1.1rem;
+    
 }
 
 .card .box .icons{

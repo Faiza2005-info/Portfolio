@@ -4,10 +4,10 @@ import './Testimonial.css';
 export const Testimonial = () => {
   return (
     <>
-      <section className="testimonial-section">
+      <section id="testimonials" className="testimonial-section">
         <div className="container">
           <div className=" section-header">
-            <h2 className="section-title wow fadeInLeft">My Clients Stories</h2>
+            <h3 className="section-title wow fadeInLeft">My Clients Stories</h3>
             <p className=" wow fadeInLeft">Empowering people in a new digital journey with my super services</p>
           </div>
 

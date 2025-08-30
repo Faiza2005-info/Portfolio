@@ -52,6 +52,8 @@ export const myProjects = [
     projectTitle: "node project",
     category: ["node"],
     imgPath: "./images/main/7.png",
+    github:"https://github.com/Faiza2005-info/Portfolio",
+    link:"https://faiza-portfolio-project.netlify.app"
   },
   {
     projectTitle: "node project",

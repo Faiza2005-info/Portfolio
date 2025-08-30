@@ -6,7 +6,7 @@ import './Service.css';
 export const Service = () => {
   return (
     <>
-      <section className="services-section" id="services-section">
+      <section className="services-section" id="services">
         <div className="container">
           <div className="section-header text-center">
             <h2 className="section-title wow fadeInUp">My Quality Services</h2>

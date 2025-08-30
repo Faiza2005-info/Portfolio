@@ -7,7 +7,7 @@ import contactAnimation from '../../animation/contact.json'
 const Contact = () => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-
+    
     const handleSubmit = async (e) => {
         e.preventDefault();
         const data = {
@@ -28,17 +28,16 @@ const Contact = () => {
         console.error('Error:', error);
         alert('There was an error sending your message.');
     }
-
     }
 
     return (
-        <section className='contact-me'>
+        <section id="contact" className='contact-me'>
             <h1 className='title'>
                 <span className='icon-mail'></span>
                 Contact me
             </h1>
             <p className='sub-title'>
-                contact me for more information and Get notified when I publish someyhing new
+                Contact me for more information and Get notified when I publish something new
             </p>
 
             <div style={{justifyContent:"space-between"}}className="flex">
@@ -56,7 +55,7 @@ const Contact = () => {
                     <button type="submit" className='submit'>Submit</button>
                 </form>
 
-                <div className="animation"></div>
+                {/* <div className="animation"></div> */}
                 
                 <Lottie className='contact-animation'
                 loop={true} 

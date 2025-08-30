@@ -64,7 +64,7 @@ section.contact-me #message:hover{
 
 section.contact-me #message{
     min-height: 9rem;
-    resize: vertical;
+    resize:both;
 
 }
 
@@ -113,7 +113,7 @@ section.contact-me .submit:hover{
     
     }
     section.contact-me #email, section.contact-me #message{
-        width: 100px;
+        width: 100%;
         margin-left: 0;
         padding: 0.7rem 0;
         margin-top: 1rem;
@@ -122,5 +122,8 @@ section.contact-me .submit:hover{
     section.contact-me .submit{
         width: 30%;
         align-self: center;
+    }
+    section.contact-me .title,p{
+        text-align: center;
     }
 }

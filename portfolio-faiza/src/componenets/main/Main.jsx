@@ -22,7 +22,7 @@ const Main = () => {
     }
 
     return (
-        <main className='flex'>
+        <main id="projects" className='flex'>
             <section className=' flex left-section'>
                 <button onClick={() => { setActive("all"); setArr(myProjects) }} className={active === "all" ? "active" : null} >All Projects</button>
 
@@ -57,8 +57,10 @@ const Main = () => {
 
                                     <div className="flex icons">
                                         <div style={{ gap: "11px" }} className='flex'>
-                                            <div className="icon-link"></div>
-                                            <div className="icon-github"></div>
+                                            <a href={item.link} target='_blank'>
+                                            <div className="icon-link"></div></a>
+                                            <a href={item.github} target="_blank">
+                                            <div className="icon-github"></div></a>
                                         </div>
 
                                         <a className='link flex' href="">more

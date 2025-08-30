@@ -6,7 +6,7 @@ import './Skills.css';
 export const Skills = () => {
   return (
     <>
-      <section className="flex skills-section">
+      <section id="skills" className="flex skills-section">
         <div className="container">
           <div className="section-header text-center">
             <h3 className="section-title">My Skills</h3>

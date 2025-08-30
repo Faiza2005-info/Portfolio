@@ -16,6 +16,15 @@ html{
 
 *,*:before,*:after{box-sizing: inherit;}
 
+h3,h2,h1{
+  background: linear-gradient(100deg,rgb(135, 135, 192),var(--subtitle));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+
 
 :root{
   --primary:#000;
@@ -141,6 +150,8 @@ button:active{
 
 }
 
+
+
 @media(max-width:1000px){
   .container{
     --container-padding:1.7rem.
@@ -167,6 +178,7 @@ button:active{
     opacity:0.5 ;
     font-size: 1rem;
   }
+  
 
 }
 

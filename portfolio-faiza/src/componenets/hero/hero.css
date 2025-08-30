@@ -79,5 +79,8 @@ section.hero .animation{
     section.hero .animation{
         display: none;
     } 
+    section.hero h1.title{
+        text-align: center;
+    }
 
 }
