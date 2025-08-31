@@ -1,7 +1,5 @@
 import { service } from "../../assets/data/data";
-// import { icon-keyboard_arrow_up } from "./public/style.css";
-// import { GoArrowUpLeft } from "react-icons/go";
-import './Service.css';
+import './service.css';
 
 export const Service = () => {
   return (

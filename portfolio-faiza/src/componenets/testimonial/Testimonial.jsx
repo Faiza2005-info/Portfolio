@@ -7,8 +7,8 @@ export const Testimonial = () => {
       <section id="testimonials" className="testimonial-section">
         <div className="container">
           <div className=" section-header">
-            <h3 className="section-title wow fadeInLeft">My Clients Stories</h3>
-            <p className=" wow fadeInLeft">Empowering people in a new digital journey with my super services</p>
+            <h3 className="section-title  fadeInLeft">My Clients Stories</h3>
+            <p className="  fadeInLeft">Empowering people in a new digital journey with my super services</p>
           </div>
 
           <div className="testimonials-widget grid5">

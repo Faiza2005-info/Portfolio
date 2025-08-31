@@ -1,6 +1,4 @@
 
-
-
 /* Header Design */
 header.flex{
     justify-content: space-between;
@@ -138,7 +136,7 @@ header .fixed ul.modal li:first-child{
 
 }
 
-/* le dernier élément n'a pas de boder  */
+/* le dernier élément n'a pas de border  */
 header .fixed ul.modal li:last-child{
     border:none;
     

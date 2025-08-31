@@ -4,14 +4,17 @@ const ADMIN_EMAIL = process.env.ADMIN_EMAIL;
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 
 const loginAdmin = (req, res) => {
-  const { email, password } = req.body;
+  try {
+    const { email, password } = req.body;
 
-  if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
-    const token = jwt.sign({ email, role: 'admin' }, process.env.JWT_SECRET, { expiresIn: '7d' });
-    return res.json({ token });
+    if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
+      const token = jwt.sign({ email, role: 'admin' }, process.env.JWT_SECRET, { expiresIn: '7d' });
+      return res.json({ token });
+    }
+  } catch (error) {
+
+    return res.status(401).json({ message: 'Invalid credentials' });
   }
-
-  return res.status(401).json({ message: 'Invalid credentials' });
-};
+}
 
 module.exports = { loginAdmin };

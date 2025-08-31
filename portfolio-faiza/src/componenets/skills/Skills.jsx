@@ -1,7 +1,7 @@
 
 import { skillsData } from "../../assets/data/data.js";
 import './skills.css';
-// Assuming you have an icon for skills
+
 
 export const Skills = () => {
   return (
