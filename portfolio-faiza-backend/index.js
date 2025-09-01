@@ -8,7 +8,7 @@ const authRoutes = require('./routes/user.routes');
 const app = express();
 
 // integrate with frontend
-app.use(cors({ origin: "https://faiza-portfolioo.netlify.app" ,
+app.use(cors({ origin: "https://faiza-portfoolio.netlify.app" ,
     methods:["GET","POST","PUT","DELETE"],
     credentials:true
 })); 
