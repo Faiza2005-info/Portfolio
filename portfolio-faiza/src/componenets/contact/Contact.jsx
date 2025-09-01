@@ -16,7 +16,7 @@ const Contact = () => {
             message: message,
         };
         try {
-            const response = await axios.post("http://localhost:5000/contact", data,
+            const response = await axios.post("https://portfolio-vhru.onrender.com/contact", data,
                 {
                     headers: {
                         'Content-Type': 'application/json',
