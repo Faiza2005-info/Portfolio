@@ -1,5 +1,5 @@
 import { testimonialData } from "../../assets/data/data";
-import './Testimonial.css';
+import './testimonial.css';
 
 export const Testimonial = () => {
   return (
