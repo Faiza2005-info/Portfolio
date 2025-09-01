@@ -11,7 +11,7 @@ const AdminMessages = () => {
     const getAllMessages = async () => {
       
       try {
-        const res = await axios.get("http://localhost:5000/api/contact",{
+        const res = await axios.get("https://portfolio-vhru.onrender.com/api/contact",{
           headers: {
             Authorization: `Bearer ${token}`
           }
